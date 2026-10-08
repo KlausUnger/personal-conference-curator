@@ -1,0 +1,17 @@
+{
+  "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+  },
+  "enabledPlugins": {
+    "agent-team-generic@agent-team": true
+  },
+  "extraKnownMarketplaces": {
+    "agent-team": {
+      "source": {
+        "source": "github",
+        "repo": "woditschka/agentic-coding-reference",
+        "ref": "v0.4.8"
+      }
+    }
+  }
+}
